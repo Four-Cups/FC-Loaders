@@ -11,29 +11,62 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# FourCups Loaders
 
-## Features
+## Demo Preview
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+<gifs>
 
-## Getting started
+## Live Preview
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+<link>
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+# Getting started
+## Installing
+Add this to your pubspec.yaml file:
 ```dart
-const like = 'sample';
+dependencies:
+  fc_loaders: ^0.0.1
 ```
 
-## Additional information
+## Import
+Add this to the top of your file:
+```dart
+import 'package:fc_loaders/fc_loaders.dart';
+```
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## Usage
+- Call the loaders as you would call any other widget.
+```dart
+child: 
+    FCBallBounce()
+```
+<gif>
+
+- You can also customize it to suit your needs.
+```dart
+child: 
+    FCBallBounce(
+        loaderBallColor: Colors.amber, 
+        duration: Duration(milliseconds: 100)
+    )
+```
+<gif>
+
+## Available Loaders
+<gif>
+
+## Upcoming Loaders
+<gif>
+
+## Bugs, Contributions and requests
+Contributions, Suggestions, Bug Fixes and Pull Requests are always welcome!
+
+Got an idea for a Loader Animation? Feel free to let us know!
+
+See `contribute.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+## License
+MIT License
