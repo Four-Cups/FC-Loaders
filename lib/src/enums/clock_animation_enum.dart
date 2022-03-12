@@ -1,0 +1,1 @@
+enum ClockAnimateType { translation, scale }
