@@ -18,3 +18,5 @@ export 'src/fc_rotating_three_circles.dart';
 
 export 'src/enums/clock_animation_enum.dart';
 export 'src/enums/loading_4_colors_ball_size_enum.dart';
+
+export 'src/constants/themes.dart';

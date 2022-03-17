@@ -13,13 +13,9 @@ and the Flutter guide for
 
 # FourCups Loaders
 
-## Demo Preview
-
-<gifs>
-
 ## Live Preview
 
-<link>
+[View Live Demo.](https://four-cups.github.io/fc_loader_demo/#/)
 
 # Getting started
 ## Installing
@@ -41,7 +37,6 @@ import 'package:fc_loaders/fc_loaders.dart';
 child: 
     FCBallBounce()
 ```
-<gif>
 
 - You can also customize it to suit your needs.
 ```dart
@@ -51,14 +46,6 @@ child:
         duration: Duration(milliseconds: 100)
     )
 ```
-<gif>
-
-## Available Loaders
-<gif>
-
-## Upcoming Loaders
-<gif>
-
 ## Bugs, Contributions and requests
 Contributions, Suggestions, Bug Fixes and Pull Requests are always welcome!
 
@@ -68,5 +55,13 @@ See `contribute.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
+
 ## License
 MIT License
+
+
+## Authors
+
+<a href= "https://github.com/FabChris01"><img src = "https://github.com/FabChris01.png?size=40" style = "border-radius: 50%" /></a>
+<a href= "https://github.com/hemanthhari2000"><img src = "https://github.com/hemanthhari2000.png?size=40" style = "border-radius: 50%" /></a>
+<a href= "https://github.com/adityan2851"><img src = "https://github.com/adityan2851.png?size=40" style = "border-radius: 50%" /></a>
