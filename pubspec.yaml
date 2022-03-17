@@ -2,7 +2,7 @@ name: fc_loaders
 description: An Open Source Flutter package containing a variety of animated
   loaders purely implemented in Dart. These Loaders are customizable to a
   certain extent.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Four-Cups/FC-Loaders
 
 environment:
